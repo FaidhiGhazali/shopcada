@@ -1,0 +1,6 @@
+@font-face {
+    font-family: "Inkburrow";
+    color: rgb(253, 142, 38);
+    src: url("//db.onlinewebfonts.com/t/b6d95048d431b37b5fcb44e641038e0f.eot");
+    src: url("//db.onlinewebfonts.com/t/b6d95048d431b37b5fcb44e641038e0f.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/b6d95048d431b37b5fcb44e641038e0f.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/b6d95048d431b37b5fcb44e641038e0f.woff") format("woff"), url("//db.onlinewebfonts.com/t/b6d95048d431b37b5fcb44e641038e0f.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/b6d95048d431b37b5fcb44e641038e0f.svg#Inkburrow") format("svg"); 
+}
