@@ -67,6 +67,31 @@ nav.header {
     line-height: 200px;
 }
 
+#footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    height: 100px;
+    width: 100%;
+    background-color: rgb(73, 71, 71);
+    color: white;
+    text-align: center;
+ }
+
+ .left {
+    text-align:left;
+    float:left;
+}
+
+.right {
+    float:right;
+    text-align:right;
+}
+    
+.centered {
+    text-align:center;
+}
+
 @font-face {
     font-family: "Inkburrow";
     color: rgb(250, 159, 40);
