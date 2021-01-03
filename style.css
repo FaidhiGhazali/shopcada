@@ -23,6 +23,16 @@ label.logo {
     font-weight: bold;
 }
 
+label.font-header {
+    font-family: 'Roboto Condensed', sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 45px;
+    padding: 0 100px;
+    margin-top: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
 nav ul {
     float: right;
     padding: 0 100px;
@@ -53,13 +63,8 @@ nav.header {
     background: rgb(250, 159, 40);
     height:200px;
     width:100%;
-}
-
-nav.header div {
     text-align: center;
-    line-height: 80px;
-    padding: 0 100px;
-    font-weight: bold;
+    line-height: 200px;
 }
 
 @font-face {
