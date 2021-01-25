@@ -1,16 +1,33 @@
 <html>
         <head>
             <link rel="stylesheet" href="style.css">
+            <meta charset="utf-8" />
+            <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no" />
             <link href="//db.onlinewebfonts.com/c/b6d95048d431b37b5fcb44e641038e0f?family=Inkburrow" rel="stylesheet" type="text/css"/>
-            <link rel="preconnect" href="https://fonts.gstatic.com">
             <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
-            <script src="https://kit.fontawesome.com/a076d05399.js"></script>
             <link rel="preconnect" href="https://fonts.gstatic.com">
-            <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap" rel="stylesheet">
+            <link rel="stylesheet" href="https://js.arcgis.com/4.18/esri/themes/light/main.css">
+            <script src="https://js.arcgis.com/4.18/"></script>
+
+            <script>
+                require(["esri/Map", "esri/views/MapView"], function (Map, MapView) {
+                  var map = new Map({
+                    basemap: "topo-vector"
+                  });
+              
+                  var view = new MapView({
+                    container: "viewDiv",
+                    map: map,
+                    center: [108.4917166, 3.3547662], // longitude, latitude
+                    zoom: 6
+                  });
+                });
+              </script>
+
         </head>
     <body>
         <nav class="header">
-            <label class="font-header">New Arrival</label>
+            <label class="font-header">S-Charms</label>
         </nav>
         <div id = "boxes"> 
             <div id = "leftbox"> 
@@ -23,13 +40,7 @@
                 course. 
             </div>  
               
-            <div id = "middlebox"> 
-                <h2>Map</h2> 
-                The course focuses on various MCQ's & Coding  
-                question likely to be asked in the interviews 
-                & make your upcoming placement season efficient 
-                and successful. 
-            </div> 
+            <div id="viewDiv"></div> 
               
             <div id = "rightbox"> 
                 <h2>Right Div:</h2> 

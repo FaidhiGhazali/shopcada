@@ -45,7 +45,7 @@ nav.header {
     background-color: rgb(73, 71, 71);
     color: white;
     text-align: center;
- }
+}
 
 .left {
     text-align:left;
@@ -61,18 +61,18 @@ nav.header {
     text-align:center;
 }
 
-
 #leftbox { 
     float:left;  
     background:rgb(216, 116, 116); 
     width:15%; 
     height:100%; 
 } 
-#middlebox{ 
+#viewDiv{ 
     float:left;  
-    background:rgb(111, 183, 250); 
     width:70%;
     height:100%;
+    padding: 0;
+    margin: 0;
 } 
 #rightbox{ 
     float:right; 
