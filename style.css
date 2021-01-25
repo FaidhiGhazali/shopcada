@@ -9,32 +9,12 @@ html *
    font-family: 'Roboto Condensed', sans-serif;
 }
 
-nav {
-    background: rgb(255, 255, 255);
-    height:80px;
-    width:100%;
-}
-
-label.logo {
-    font-family: Inkburrow;
-    color: rgb(250, 159, 40);
-    font-size: 45px;
-    line-height: 80px;
-    padding: 0 100px;
-    font-weight: bold;
-}
-
 label.font-header {
     font-family: 'Roboto Condensed', sans-serif;
     color: rgb(0, 0, 0);
     font-size: 20px;
     font-weight: bold;
     text-transform: uppercase;
-}
-
-nav ul {
-    float: right;
-    padding: 0 100px;
 }
 
 nav ul li{
@@ -46,15 +26,6 @@ nav ul li{
 nav ul li a{
     text-transform: uppercase;
     color: #000
-}
-
-ul.icon {
-    padding: 0 100px;
-    margin: 30px;
-}
-
-ul.icon li{
-    margin: 0 15px;
 }
 
 nav.header {
@@ -90,27 +61,22 @@ nav.header {
     text-align:center;
 }
 
-@font-face {
-    font-family: "Inkburrow";
-    color: rgb(250, 159, 40);
-    src: url("//db.onlinewebfonts.com/t/b6d95048d431b37b5fcb44e641038e0f.eot");
-    src: url("//db.onlinewebfonts.com/t/b6d95048d431b37b5fcb44e641038e0f.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/b6d95048d431b37b5fcb44e641038e0f.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/b6d95048d431b37b5fcb44e641038e0f.woff") format("woff"), url("//db.onlinewebfonts.com/t/b6d95048d431b37b5fcb44e641038e0f.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/b6d95048d431b37b5fcb44e641038e0f.svg#Inkburrow") format("svg"); 
-}
+
 #leftbox { 
     float:left;  
     background:rgb(216, 116, 116); 
-    width:25%; 
+    width:15%; 
     height:100%; 
 } 
 #middlebox{ 
     float:left;  
-    background:rgb(239, 247, 126); 
-    width:50%;
+    background:rgb(111, 183, 250); 
+    width:70%;
     height:100%;
 } 
 #rightbox{ 
     float:right; 
     background:rgb(216, 116, 116); 
-    width:25%; 
+    width:15%; 
     height:100%; 
 } 
